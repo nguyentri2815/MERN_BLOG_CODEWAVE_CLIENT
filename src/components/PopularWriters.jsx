@@ -20,7 +20,7 @@ const PopularWriters = ({ popularWriters }) => {
               <div className="flex-1">
                 <h3>{writer?.name}</h3>
                 <p>
-                  <span>{numberFormat(100000)}</span> <span className="text-rose-600">Follower</span>
+                  <span>{numberFormat(writer?.totalFollowers)}</span> <span className="text-rose-600">Follower</span>
                 </p>
               </div>
             </div>
